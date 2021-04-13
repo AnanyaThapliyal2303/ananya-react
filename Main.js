@@ -6,6 +6,7 @@ import './css/Main.css'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Resume from './resume/Resume.pdf';
+import EmailIcon from '@material-ui/icons/Email';
 
 function Main() {
     return (
@@ -31,6 +32,7 @@ function Main() {
                 <center>
                 <a href="https://github.com/AnanyaThapliyal2303"><GitHubIcon style={{ fontSize: 48 }}/></a>
                 <a href="https://www.linkedin.com/in/ananya-thapliyal"><LinkedInIcon style={{ fontSize: 48 }}/></a>
+                <a href="mailto:ananyathapliyal2303@gmail.com?subject = Subject&body = Message"><EmailIcon style={{ fontSize: 48 }}/></a>
                 </center>
                 </div>
                 <a href={Resume} target="_blank">
