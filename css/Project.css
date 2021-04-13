@@ -1,0 +1,36 @@
+.container-box{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 4rem;
+    padding-right: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-family: fantasy;
+    font-weight: 300;
+    margin-top: 1rem;
+    color: white;
+}
+
+body{
+    background: #3399ff;
+  }
+  
+  
+
+@media(max-width: 900px){
+    
+    .container-box{
+        display: grid ;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    
+}

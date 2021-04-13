@@ -1,0 +1,37 @@
+h1{
+    font-family: fantasy;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.skill-area{
+    padding-top: 1rem;
+    background-color: black;
+}
+
+.skill-grid{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 2rem;
+    padding-right: 0.2rem;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+@media(max-width: 900px){
+    
+    .skill-grid{
+        display: grid ;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-left: 0rem;
+        padding-right: 0.4rem;
+        background-color: black;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+}
