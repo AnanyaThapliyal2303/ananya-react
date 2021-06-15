@@ -13,7 +13,7 @@ function Main() {
         <div>
         <div className="background">
             <Navbar/>
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG4m027Mshicw/profile-displayphoto-shrink_400_400/0/1598885729833?e=1623283200&v=beta&t=VyrH8jMqRIy5sbLfDHQsiweSTB4x2MU5p2l0INA12xY" alt="" id="mobile_image"></img>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG4m027Mshicw/profile-displayphoto-shrink_800_800/0/1598885729833?e=1629331200&v=beta&t=rVEGIH39Vmhgz5BJpYC2aFnaUytwkKmssNdxweTiD68" alt="" id="mobile_image"></img>
             <div class="row">
                 <div class="column">
                     <div class="para">
