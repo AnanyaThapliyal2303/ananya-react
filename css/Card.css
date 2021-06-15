@@ -1,6 +1,6 @@
 .card{
     background-image: linear-gradient(to bottom right, #c2eff5,#a4eef3, #dee7a7, #e8f797);
-    height: 600px;
+    height:500px;
     width: 90%;
     
     border-radius: 25px;
@@ -37,12 +37,13 @@ p{
 @media(max-width: 900px){
 
     .card{
-        height: 450px;
+        height: 430px;
         width: 95%;
         margin-bottom: 2rem;
         margin-left: 0.5rem;
         border-radius: 25px;
     }
+
 
     p{
         font-size: 18px;

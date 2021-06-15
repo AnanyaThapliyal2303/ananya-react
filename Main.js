@@ -7,13 +7,14 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Resume from './resume/Resume.pdf';
 import EmailIcon from '@material-ui/icons/Email';
+import Ananya from './img/Ananya.png'
 
 function Main() {
     return (
         <div>
         <div className="background">
             <Navbar/>
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG4m027Mshicw/profile-displayphoto-shrink_800_800/0/1598885729833?e=1629331200&v=beta&t=rVEGIH39Vmhgz5BJpYC2aFnaUytwkKmssNdxweTiD68" alt="" id="mobile_image"></img>
+            <img src={Ananya} id="mobile_image"></img>
             <div class="row">
                 <div class="column">
                     <div class="para">
@@ -23,7 +24,7 @@ function Main() {
                     </div>
                 </div>
                 <div class="column">
-                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG4m027Mshicw/profile-displayphoto-shrink_800_800/0/1598885729833?e=1629331200&v=beta&t=rVEGIH39Vmhgz5BJpYC2aFnaUytwkKmssNdxweTiD68" alt="" id="image"></img>
+                <img src={Ananya} id="image"></img>
                 </div>
             </div>
             
