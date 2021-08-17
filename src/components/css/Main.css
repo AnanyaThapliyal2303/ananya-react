@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20200923/pngtree-beautiful-elegant-pink-red-purple-watercolor-smudge-background-image_399307.jpg");
+    background-size: cover;
+    filter: brightness(100%);
+    height: 700px;
+    z-index: 0;
+   
+   padding:3rem;
+   
+  }
+
+  .para{
+      margin-top: 4.7rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+      font-size: 30px;
+      font-family: 'PT Serif', serif;
+  }
+
+  .info{ 
+    font-style: italic;
+  }
+
+  .icons a{
+      color: rgb(74, 74, 175);
+      padding: 5px;
+      margin: 0.2rem;
+  }
+
+  .icons a:hover{
+      color: rgb(126, 133, 120);
+  }
+
+  #image{
+      border-radius: 200px;
+      width: 400px;
+      height: 400px;
+  }
+
+  #mobile_image{
+      width: 0;
+      display: none;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .btn-1d:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn-1d{
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    border: solid 2px teal;
+  }
+  
+
+  .btn-1d {
+  
+      border: none;
+      font-family: inherit;
+      font-size: 20px;
+      color: teal;
+      background: none;
+      cursor: pointer;
+      padding: 25px 80px;
+      display: inline-block;
+      margin: 15px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    
+    overflow: hidden;
+    border: solid 4px teal;
+ 
+  }
+  
+  .btn-1d:after {
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  
+  }
+  
+  .btn-1d:hover,
+  .btn-1d:active {
+    color: purple;
+    border: solid 4px purple;
+  }
+  
+  .btn-1d:hover:after {
+    width: 100%;
+    opacity: 1;
+    background-color: rgb(209, 173, 209);
+  }
+  
+  .btn-1d:active:after {
+    width: 100%;
+    opacity: 1;
+  }
+
+  @media(max-width: 900px){
+
+    .background{
+        background: url("https://png.pngtree.com/thumb_back/fh260/background/20200923/pngtree-beautiful-elegant-pink-red-purple-watercolor-smudge-background-image_399307.jpg");
+        background-size: cover;
+        filter: brightness(100%);
+        height: 700px;
+        z-index: 0;
+        padding:2rem;
+       }
+
+     #mobile_image{
+        border-radius: 150px;
+        display: inline;
+        width: 240px;
+    }
+
+    .para{
+        padding: 2px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0.2rem;
+        margin-right: 1.2rem;
+        font-size: 19px;
+    }
+
+    .column {
+        float: left;
+        width: 100%;
+      }
+
+    #image{
+        border-radius: 200px;
+        width: 0;
+        display: none;
+    }
+
+    .icons a{
+        color: rgb(74, 74, 175);
+        padding: 5px;
+    }
+
+  }
